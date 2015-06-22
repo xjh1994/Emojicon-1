@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity">
+
+    <com.silas.emoji.library.EmojiconEditText
+        android:layout_marginTop="@dimen/big_margin"
+        xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_something"
+        android:padding="@dimen/big_margin"
+        android:textSize="@dimen/text_size"
+        emojicon:emojiconSize="@dimen/emoji_size"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:textCursorDrawable="@null"/>
+
+    <RelativeLayout
+        android:id="@+id/llayout_bottom_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divide_height"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/rlayout_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/small_margin"
+            android:paddingTop="@dimen/small_margin"
+            android:paddingLeft="@dimen/big_margin"
+            android:paddingRight="@dimen/big_margin"
+            android:gravity="bottom">
+            <ImageView
+                android:id="@+id/image_emoji_key"
+                android:layout_width="@dimen/bottom_reply_pic_size"
+                android:layout_height="@dimen/bottom_reply_pic_size"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_below="@id/rlayout_input"
+            android:id="@+id/flayout_emojicons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</RelativeLayout>
