@@ -18,7 +18,7 @@ package com.silas.emoji.library.emoji;
 
 /**
  * Emoji面板第一页显示的图标
- * @author Silas Ma (silas_ma@163.com)
+ * @author Silas Ma (www.pureerf.com)
  */
 public class Page1 {
     public static final Emojicon[] DATA = new Emojicon[]{

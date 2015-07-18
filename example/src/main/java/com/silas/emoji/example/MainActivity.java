@@ -31,7 +31,7 @@ import com.silas.emoji.library.EmojiconsFragment;
 import com.silas.emoji.library.emoji.Emojicon;
 
 /**
- * @author Silas Ma (silas_ma@163.com)
+ * @author Silas Ma (www.pureerf.com)
  */
 public class MainActivity extends ActionBarActivity implements View.OnClickListener,
         EmojiconGridFragment.OnEmojiconClickedListener, EmojiconGridFragment.OnEmojiconBackspaceClickedListener {

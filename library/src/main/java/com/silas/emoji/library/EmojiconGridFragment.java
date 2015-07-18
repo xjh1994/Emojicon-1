@@ -32,7 +32,7 @@ import com.silas.emoji.library.emoji.Page1;
 import java.util.Arrays;
 
 /**
- * @author Silas Ma (silas_ma@163.com)
+ * @author Silas Ma (www.pureerf.com)
  */
 public class EmojiconGridFragment extends Fragment implements AdapterView.OnItemClickListener {
     private OnEmojiconClickedListener mOnEmojiconClickedListener;

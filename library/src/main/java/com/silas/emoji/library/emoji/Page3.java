@@ -16,6 +16,10 @@
 
 package com.silas.emoji.library.emoji;
 
+/**
+ * Emoji面板第三页显示的图标
+ * @author Silas Ma (www.pureerf.com)
+ */
 public class Page3 {
     public static final Emojicon[] DATA = new Emojicon[]{
             Emojicon.fromCodePoint(0x1f3a4),

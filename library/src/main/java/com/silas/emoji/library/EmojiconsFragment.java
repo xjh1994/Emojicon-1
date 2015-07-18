@@ -46,7 +46,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Silas Ma (silas_ma@163.com)
+ * @author Silas Ma (www.pureerf.com)
  */
 public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChangeListener{
 

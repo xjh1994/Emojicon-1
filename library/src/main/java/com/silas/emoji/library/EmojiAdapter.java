@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * EmojiconGridFragment 用的适配器
- * @author Silas Ma (silas_ma@163.com)
+ * @author Silas Ma (www.pureerf.com)
  */
 public class EmojiAdapter extends ArrayAdapter<Emojicon> {
     private boolean mUseSystemDefault = false;
